@@ -1,0 +1,336 @@
+
+body{
+    font-family:sans-serif;
+}
+*{
+    text-decoration: none !important;
+
+}
+header{
+
+    background-image: url(../imges/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.layer{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.font-color-fff{
+    color: #fff;
+}
+.font-size{
+        font-weight: 600;
+        color: #1e1e1e;
+
+}
+
+.card{
+    border: none !important ;
+}
+section{
+    background-color: #f5f5f5;
+}
+.back-grounf-color-fff{
+    background-color: #fff;
+}
+.boxshadow{
+
+    box-shadow:  1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+.colum-text-one-p{
+    padding-bottom: 10px;
+}
+.about-content::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100px;
+    background-color:#0078ff ;
+}
+.progress{
+    border-radius: 0 !important;
+    height: 10px !important;
+}
+.colum-text-one {
+    font-size: 14px;
+}
+.about-content-p{
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.services-title::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 5px;
+    width: 40px;
+    background-color:#0078ff ;
+    transform: translateX(-50%);
+}
+
+.services-title h3{
+    font-weight: 700;
+    font-size: 48px;
+    color: #1e1e1e;
+
+}
+.service-item {
+    font-size: 14px;
+    font-weight: 300;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.service-item p{
+    font-size: 16px;
+}
+
+.service-item h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.service-icon i{
+    border: 10px solid #0d6efd;
+    border-radius: 50%;
+    padding: 30px;
+    color: #1e1e1e;
+    font-size: 35px;  
+}
+.service-item .service-icon i{
+    transition: all 1s;
+}
+.service-item:hover .service-icon i{
+    border: 10px solid rgba(213, 213, 220, 0.738);
+    background-color: #0078ff;
+    color: #fff;
+
+}
+
+.background{
+    background-image: url(../imges/counters-bg.jpg);
+    background-attachment: fixed;
+    height: 50%;
+    width: 100%;
+    background-position: cover ;
+}
+
+.itemmm i{
+    border: 10px solid #0d6efd;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: #1e1e1e;
+    font-size: 20px;
+}
+
+.background-layer{
+    background-color: rgba(38, 81, 233, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.work-inma{
+    transition: all 2s;
+    overflow: hidden;
+}
+.work-inma:hover .work-img img{
+        
+    transform:scale(1.1);
+}
+
+.work-span{
+    color: #0078ff;
+    font-size: 12px;
+}
+.font p{
+    font-size: 12px;
+}
+.carousel-slide{
+    background-image: url(../imges/overlay-bg.jpg) !important;
+}
+.card-photo{
+    width: 10%;
+
+}
+.font-blog p{
+    font-size: 14px;
+}
+.card-box{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+
+.card-h6{
+    border: 1px solid #0078ff;
+    background-color: #0078ff;
+    width: 60px;
+    border-radius: 5px;
+}
+.card-titel-h6{
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.bakground-layer-two{
+    background-image: url(../imges/overlay-bg.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.layer-bakground{
+    background-color: rgba(42, 147, 196, 0.692);
+    width: 100%;
+    height: 100%;
+}
+
+.font-p-18{
+    font-size: 18px;
+}
+
+.carousel-indicators [data-bs-target]{
+
+    width: 12px;
+    height: 12px;
+    border: 1px none;
+    border-radius: 10px ;
+    
+    
+}
+.card-title::after{
+    content:"TRAVEL";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    background-color: #0078ff;
+    border: 1px none;
+    border-radius: 3px;
+    padding: 8px;
+    color: #fff;
+}
+
+.form-control{
+    border-radius: 1px !important;
+    padding:8px;
+}
+
+.w-10{
+    font-size: 25px;
+    
+}
+
+.h10{
+    height: 100px;
+}
+
+.color{
+   background-color:    #0062d3 ;
+}
+.h1{
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+.tile-p{
+    
+    font-weight: 600;
+    font-size: 2.5rem;
+
+}
+
+
+.brand-icon i{
+    border: 5px solid #0d6efd;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    color: #1e1e1e;
+    font-size: 25px;
+    padding-top:3px ;
+    padding-left: 5px !important;
+     
+ }
+ .brand-icon .fitl-icon i{
+     transition: all 1s;
+ }
+ .brand-icon:hover .fitl-icon i{
+     border: 5px solid rgba(213, 213, 220, 0.738);
+     background-color: #0078ff;
+     color: #fff;
+ 
+ }
+ 
+
+.bakground-layer-3{
+    background-image: url(../imges/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.layer-bakground-3{
+    background-color: rgba(42, 147, 196, 0.692);
+}
+.itmes .tile-p::after{
+    content: "";
+    animation: tayping 8s linear alternate infinite;
+}
+@keyframes tayping {
+    0%{content: "F|"; }
+    5%{content: "Fr|"; }
+    10%{content: "Free|"; }
+    15%{content: "Freel|"; }
+    20%{content: "Freela|"; }
+    25%{content: "Freelan|"; }
+    30%{content: "Freelanc|"; }
+    35%{content: "Freelance|"; }
+    40%{content: "Freelancer|"; }
+    45%{content: "Ph|"; }
+    50%{content: "Photo|"; }
+    55%{content: "Photogr|"; }
+    60%{content: "Photograp|"; }
+    65%{content: "Photographer|"; }
+    70%{content: "De|"; }
+    75%{content: "Desi|"; }
+    80%{content: "Design|"; }
+    85%{content: "Designer|"; }
+    90%{content: "Dev|"; }
+    95%{content: "Devel|"; }
+    98%{content: "Develo|"; }
+    100%{content: "Developer|"; }
+    
+}
+.navbar-brand{
+    font-size: 28px !important;
+    font-weight: bold;
+}
+
+
+.icon-up{
+    position: fixed;
+    top: 90%;
+    right:30px;
+    
+}
+.icon-up i{
+    width: 40px;
+    height: 40px;
+    border:  3px solid #0062d3 ;
+    background-color: #0062d3;
+    border-radius: 50%;
+    padding: 9px;
+
+}
+.z-inedx{
+    z-index: 999999999999999999;
+}
+
+.fs-18{
+    font-size: 18px !important;
+}
